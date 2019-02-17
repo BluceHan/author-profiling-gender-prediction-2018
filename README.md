@@ -4,14 +4,23 @@ This project was done using data from the competition "Author Profiling - Gender
 
 # Using only text
 
-## Features and model for the text
+## Using "Machine Learning" methods
+
+### Features and model for the text
 
 For features were used word and character n-grams, and LSA was used for dimensionality reduction.
 Logistic Regression and LightGBM were used, as the Logistic regression gave better results.
 
-## Best result
-
+### Best result
 The accuracy achieved on the test set provided by the competition's organizers is 82.21%.
+
+### Using Deep Learning methods
+200 dimension Glove embeddings trained on tweets was used and GRU network.
+
+### Best result
+The accuracy achieved on the test set provided by the competition's organizers is 77.94%.
+
+
 
 # Using images only
 
