@@ -13,3 +13,12 @@ Logistic Regression and LightGBM were used, as the Logistic regression gave bett
 
 The accuracy achieved on the test set provided by the competition's organizers is 82.21%.
 
+# Using images only
+
+## Model
+For the building of the model was tried various pretrained CNN nets (Xception, MobilNetV2, VGG19). For faster training, the output of the pretrained nets was computed prior the training.
+In the end VGG19 was for 'base', due to its smallest shape of the output tensor. Because there was 10 images for every user, keras TimeDistributed layer was used, in order to take into the account all the images at once.
+
+## Best result
+
+The accuracy achieved on the test set provided by the competition's organizers is 71.57%.
