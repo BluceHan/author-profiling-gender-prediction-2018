@@ -1,6 +1,6 @@
 # Author Profiling
 
-This project was done using data from the competition "Author Profiling - Gender identification in Twitter - PAN @ CLEF 2018" (https://pan.webis.de/clef18/pan18-web/author-profiling.html).The focus on the competition was gender identification in Twitter, where text and images could have been used as information sources. The training dataset contains 300000 tweets text and 30000 images shared in tweets from 3000 users (100 Tweets text / 10 Images per user). The task is to predict whether the user is male or female, using the text from the tweets, the images or both.
+This project was done using data from the competition "Author Profiling - Gender identification in Twitter - PAN @ CLEF 2018" (https://pan.webis.de/clef18/pan18-web/author-profiling.html).The focus on the competition was gender identification in Twitter, where text and images was used as information sources. The provided training dataset contains 300000 tweets text and 30000 images shared in tweets from 3000 users (100 Tweets text / 10 Images per user). The task is to predict whether the user is male or female, using the text from the tweets, the images or both.
 
 # Using text only
 
